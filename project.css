@@ -1,0 +1,314 @@
+body{  
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#div_1{
+    background-image: url("http://cdn.home-designing.com/wp-content/uploads/2020/09/dark-living-room-decor.jpg");
+    color: beige;
+    text-align: center;
+    padding: 200px;
+}
+
+#h3_1{
+    font-family:'Lucida Handwriting';
+    font-weight:lighter;
+    margin-bottom: -15px;
+}
+
+#h1_1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 50px;
+    font-weight: bold;
+}
+#p_1{
+    margin-top: -15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+ 
+#div_2{
+    color: #DFD8D2;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://www.colorbook.io/imagecreator.php?hex=1b1c1d&width=1920&height=1080&text=%201920x1080);
+
+}
+
+#img_1{
+    width: 30px;
+    margin-bottom: -15px;
+}
+
+#p_2{
+    font-size: 12px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: -10px;
+}
+
+.column{
+    float: left;
+    width: 45%;
+    padding: 29.9px;
+    background-color: #1d1b1c;
+}
+
+#img_2{
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#div_2_1{
+    margin-bottom: -20px;
+}
+
+#div_2_2_2{
+    text-align: justify;
+    margin-top: -20;
+    padding-top: 139px;
+    padding-bottom: 139px;
+}
+
+#p_3{
+    font-size: 15px;
+}
+
+#div_3{
+    background-color:#2E2D29;
+    text-align: center;
+    color:#DFD8D2 ;
+    padding-top: 500px;
+}
+
+#div_3_1{
+    margin-bottom: -15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 12px;
+}
+
+#p_4{
+    font-size: 12px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: -10px;
+}
+
+.column2 {
+    float: left;
+    width: 31.5%;
+    padding: 10.95px;
+    height: 300px; 
+    background-color:#2E2D29;
+    margin-top: -15px;
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+
+#div3_2{
+    padding-top: 50px;
+}
+
+#img_3{
+    width: 350px;
+    height: 270px;
+    padding-bottom: 20px;
+}
+
+#img_4{
+    width: 350px;
+    height: 270px;
+}
+
+#div_4{
+    background-color: #3D3C38;
+    padding-bottom: 520px;
+    text-align: center;
+    padding-top: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #DFD8D2 ;
+}
+
+#p_5{
+    font-size: 12px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+#div_4_2_2{
+    color:#3D3C38;
+}
+
+#div_4_2_1{
+    color: #DFD8D2 ;
+}
+
+#div_4_2_3{
+    color: #DFD8D2  ;
+}
+
+#div_4_3_2{
+    color: #DFD8D2 ;
+} 
+
+#img_5{
+    width: 30px;
+    margin-bottom: -15px;
+}
+
+#p_6{
+    font-size: 12px;
+}
+
+.column3 {
+    float: left;
+    width: 28.5%;
+    padding: 10px;
+    margin-left: 28px;
+    background-color: #3D3C38;
+    margin-top: 30px;
+}
+
+#div_5{
+    background-color:#6A6562;
+}
+
+#div_5{
+    background-color: #55534d;
+    padding-bottom: 500px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #DFD8D2 ;
+}
+
+.column4{
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+    height: 230px;
+}
+
+#div_5_2_1{
+    margin-left: 170px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 70px;
+}
+
+#img_6{
+    width: 450px;
+    height: 300px;
+}
+
+#div_6{
+    background-color: #6d6a61;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #DFD8D2 ;
+}
+
+.column5{
+    float: left;
+    width: 400px;
+    margin-top: 50px;
+    height: 230px;
+    padding-left: 100px;
+}
+
+.column6{
+    float: left;
+    width: 15%;
+    height: 230px;
+    padding: 0px;
+}
+
+#img_7{
+    height: 350px;
+}
+
+#img_8{
+    height: 165px;
+    width: 205px;
+    padding-left: 200px;
+    margin-bottom: 16px;
+}
+
+#img_9{
+    margin-right: 1000;
+    height: 350px;
+}
+
+#img_11{
+    height: 165px;
+    width: 200px; 
+    padding-left: 100px;
+    margin-bottom: 16px;
+}
+
+#img_10{
+    height: 350px;
+    padding-left: 267px;
+    width: 240px;
+}
+
+#img_12{
+    height: 350px;
+    padding-left: 200px;
+    width: 460px;
+}
+
+.column7{
+    float: left;
+    width: 400px;
+    margin-top: 150px;
+    height: 230px;
+}
+
+.column8{
+    float: left;
+    width: 15%;
+    height: 230px;
+}
+
+#div_7{
+    margin-top: 900px;
+    background-color: #77756d;
+    padding-top: 100px;
+    color: #f3ede7;
+}
+
+#div_7_1{
+    background-color: #929088;
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#img_13{
+    width: 800px;
+}
+
+#p_7{
+    font-size: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: -10px;
+}
+
+#div_8{
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-image:url(https://i.pinimg.com/originals/73/a0/ca/73a0ca3d8da7512c603327f33733e851.jpg);
+}
+
+#div_8_1{
+    background-color: #22222273;
+    padding: 10px;
+    margin: 200px;
+}
