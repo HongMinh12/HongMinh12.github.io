@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Đưa ra số chẵn từ 0 đến số tự chọn!</title>
+    <script>
+      function findEvenNumber(){
+        //lấy số từ 4 đến 20
+        var end = parseInt(document.getElementById("end").value);
+        var evenNums = "<br>Số chẵn:<br>";
+ 
+        for(i=0; i<=end; i++){
+          if(i % 2 == 0){
+            evenNums += i + "<br>";
+          }
+        }
+        //in kết quả
+        document.getElementById("result").innerHTML = evenNums;
+      }
+    </script>
+  </head>
+  <body>
+    <h3>Đưa ra số chẵn từ 0 đến số tự chọn!</h3>
+    Chọn số (từ 4 đến 20): <input type="number" id="end" min="4" value="20" />
+    <input type="button" onclick="findEvenNumber()" value="In số chẵn" />
+    <div id="result"></div>
+  </body>
+</html>
