@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  background-color: rgb(230, 220, 245);
+}
+p {
+  margin: auto 35% auto 35%;
+  text-align: center;
+  font-size: 60px;
+  font-family: monospace;
+  border: solid rgb(0, 0, 0);
+  background-color: white;
+}
+</style>
+</head>
+<body>
+
+<p id="timer"></p>
+
+<script>
+function updateTimer(n){
+  if (n < 10){
+    return "0" + n;
+  }
+  else {
+    return n;
+  }
+}
+function getTime(){
+  var date = new Date(); 
+  var hour = date.getHours();
+  var minute = date.getMinutes();
+  var second = date.getSeconds();
+  hour = updateTimer(hour);
+  minute = updateTimer(minute);
+  second = updateTimer(second);
+  document.getElementById("timer").innerText = hour + ":" + minute + ":" + second;
+  setTimeout(function(){ getTime() }, 1000);
+} 
+
+getTime();
+</script>
+
+</body>
+</html>
