@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #FDE49C;
+    background-size: cover;
+    color: #11324D;
+}
+
+h2{
+    margin-top:-23%;
+    margin-bottom: 5%;
+    padding-left: 7%;
+    line-height: 1;
+}
+
+form{
+    display: inline-block;
+    margin: auto 34%;
+    padding-bottom: 1%;
+}
+
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 12px 7px;
+    margin: 8px;
+    display: inline-block;
+    border: 1.5px solid white;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+button {
+    background-color: #64C9CF;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border: 1px solid #64C9CF;
+    border-radius: 6%;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #DF711B;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

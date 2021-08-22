@@ -2,32 +2,32 @@ let products = [
     {
         name: 'Pho',
         title: 'Description',
-        img: ''
+        img: 'https://cdn.tgdd.vn/2020/11/CookRecipe/GalleryStep/hoan-thanh-97.jpg'
     },
     {
-        name: 'BanhCuon',
+        name: 'Banh_cuon',
         title: 'Description',
-        img: ''
+        img: 'https://toplist.vn/images/800px/banh-cuon-nong-dau-ngo-54-trieu-khuc-234579.jpg'
     },
     {
-        name: 'BunCha',
+        name: 'Bun_cha',
         title: 'Description',
-        img: ''
+        img: 'https://dulichvietnam.com.vn/vnt_upload/File/Image/bun_cha_ha_noi_o_tphcm_1.jpg'
     },
     {
-        name: 'BanhDaCua',
+        name: 'Banh_da_cua',
         title: 'Description',
-        img: ''
+        img: 'https://www.diadiemanuong.net.vn/upload/images/users/2019321072129_banhdacua.jpg'
     },
     {
-        name: 'MienXao',
+        name: 'Mien_xao',
         title: 'Description',
-        img: ''
+        img: 'https://media.cooky.vn/recipe/g4/34807/s320x320/cooky-recipe-cover-r34807.jpg'
     },
     {
-        name: 'BanhMi',
+        name: 'Banh_mi',
         title: 'Description',
-        img: ''
+        img: 'http://vinanet.vn/Uploaded/ThuHai/2020_03_02/b3_NGFB.png'
     }   
 ];
 
@@ -48,14 +48,14 @@ let items = document.querySelector('.items')
 for (product of products) {
     items.innerHTML += `
         <div class= 'item'>
-        <div class= 'product-view'>
-            <img scr = ${product.img} alt = '' class = 'img-icon'>
-            <button class = 'btn type = 'input' value =  ${product.name}>add to list</button>
-        </div>
-        <div class = 'content'>
-            <h3> ${product.name}</h3>
-            <p> ${product.title}</p>
-        </div>
+            <div class= 'product-view'>
+                <img scr = ${products.img} alt = '' class = 'img-icon'>
+                <button class = 'btn type = 'input' value =  ${products.name}>add to list</button>
+            </div>
+            <div class = 'content'>
+                <h3> ${products.name}</h3>
+                <p> ${products.title}</p>
+            </div>
         </div>
     `
-}
+};
