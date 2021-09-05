@@ -1,10 +1,10 @@
 //phần 1
-let nhapE = () => e = prompt('Nhap A');
-let nhapF = () => f = prompt('Nhap B');
+let nhapA = () => a = prompt('Nhap A');
+let nhapB = () => b = prompt('Nhap B');
 
 let equation = () => {
-	if(e == 0) {
-		if(f == 0) {
+	if(a == 0) {
+		if(b == 0) {
     		alert('Phuong trinh vo so nghiem')
 		} 
         else {
@@ -12,8 +12,8 @@ let equation = () => {
 	    }
 	} 
     else {
-	   	g = -f/e
-		alert('Phuong trinh co nghiem x = ' + g)
+	   	x = -b/a
+		alert('Phuong trinh co nghiem x = ' + x)
 	}
 }
 
@@ -52,7 +52,7 @@ let student = (name, age, address) => {
     };
     console.log(student);
 }
-document.getElementById("phan4-body").innerHTML = d;
+document.getElementById("phan4-body").innerHTML = student;
 
 
 
