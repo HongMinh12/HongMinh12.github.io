@@ -41,7 +41,7 @@ console.log(JSON.parse(productsData));
 localStorage.setItem('products', productsString);
 
 let productsData = localStorage.getItem('products');
-// console.log(JSON.parse(productsData));
+console.log(JSON.parse(productsData));
 
 
 let items = document.querySelector('.items')
