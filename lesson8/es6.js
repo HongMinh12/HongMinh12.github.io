@@ -42,7 +42,7 @@ let foo = (a,b) => {
 }
 
 //phần 4
-let d = student('Minh', 14, 'Hanoi');
+student('Minh', 14, 'Hanoi');
 
 let student = (name, age, address) => {
     let student ={
@@ -52,7 +52,6 @@ let student = (name, age, address) => {
     };
     console.log(student);
 }
-document.getElementById("phan4-body").innerHTML = student;
 
 
 

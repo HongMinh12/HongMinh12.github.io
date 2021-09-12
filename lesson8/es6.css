@@ -1,0 +1,60 @@
+.phan1 {
+    display: block;
+}
+.phan1 .phan1-heading {
+    background-color: #686868;
+    height: 30px !important;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.phan1 .phan1-body{
+    padding: 10px;
+    background-color:#c0c0c0;
+    margin-bottom: 10px;
+}
+.phan2 {
+    display: block;
+}
+.phan2 .phan2-heading {
+    background-color: #686868;
+    height: 30px !important;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.phan2 .phan2-body{
+    padding: 10px;
+    background-color:#c0c0c0;
+    margin-bottom: 10px;
+}
+.phan3 {
+    display: block;
+}
+.phan3 .phan3-heading {
+    background-color: #686868;
+    height: 30px !important;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.phan3 .phan3-body{
+    padding: 10px;
+    background-color:#c0c0c0;
+    margin-bottom: 10px;
+}
+.phan4 {
+    display: block;
+}
+.phan4 .phan4-heading {
+    background-color: #686868;
+    height: 30px !important;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.phan4 .body{
+    padding: 10px;
+    background-color:#c0c0c0;
+    margin-bottom: 10px;
+}

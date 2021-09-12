@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="es6.css">
+    <title>JSA-ES6</title>
+</head>
+<body>
+    <div class="phan1">
+		<div class="phan1-heading">
+			Giải phương trình ax+b=0
+		</div>	
+		<div class="phan1-body">
+			<button class="button" onclick="nhapA()">Nhập A</button>
+			<button class="button" onclick="nhapB()">Nhập B</button>
+			<button class="button" onclick="equation()">In Ket Qua</button>
+		</div>
+	</div>
+        
+    <div class="phan2">
+        <div class="phan2-heading">
+			Tính cạnh huyền, chiều cao và số đo hai góc của tam giác vuông
+		</div>
+        <div class="phan2-body">
+            <button class="button" onclick="canhBen1()">Nhập cạnh bên 1</button>
+			<button class="button" onclick="canhBen2()">Nhập cạnh bên 2</button> <br/><br/>
+			<button class="button" onclick="canhHuyen()">In cạnh huyền</button>
+            <button class="button" onclick="duongCao()">In đường cao</button>
+        </div>	
+    </div>
+
+    <div class="phan3">
+        <div class="phan3-heading">
+			Chuyển các function thành dạng ES6
+		</div>
+        <div class="phan3-body">
+            <p id="phan3-body-text">
+                let foo = (x,y,z) => console.log(x,y,z) <br/><br/>
+                let foo = () => alert('Hello') <br/><br/>
+                let foo = (a,b) => { <br/>
+                &emsp;let m = a+b*100; <br/>
+                &emsp;return m; <br/>
+                }
+            </p>
+        </div>	
+    </div>
+
+    <div class="phan4">
+        <div class="phan4-heading">
+			Viết function có tên là student
+		</div>
+        <div class="body">
+            <p id="phan4-body">
+                let d = student('Minh', 14, 'Hanoi');<br/><br/>
+                let student = (name, age, address) => {<br/>
+                &emsp;let student ={<br/>
+                &emsp;&emsp;name: name, <br/>
+                &emsp;&emsp;age: age,<br/>
+                &emsp;&emsp;address: address<br/>
+                &emsp;};<br/>
+                &emsp;console.log(student);<br/>
+                }
+            </p>
+        </div>	
+    </div>
+
+
+	<script src="es6.js"></script>
+</body>
+</html>
