@@ -1,13 +1,28 @@
-/* Add a black background color to the top navigation */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+}
+ .part_1{
+   background-color: #5EAAA8;
+   height: 550px;
+ }
+
 .topnav {
-  background-color: #333;
+  position: relative;
+  background-color: #056676;
+  /*opacity: 80%;*/
   overflow: hidden;
-  width: 50%;
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 25%;
+  margin-right: 25%;
+  /*margin-top: -1000px;*/
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
+  float: left;
+  border-bottom: solid 4px #056676;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -15,15 +30,45 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #E8DED2;
   color: black;
+  border-bottom: solid #5EAAA8;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+.part_1 h1{
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  padding-top: 10%;
 }
 
+.part_1 img{
+  opacity: 0.6;
+}
+
+.part_2_row{
+  background-color: #A3D2CA;
+  height: 460px;
+}
+
+.part_2_column{
+  float: left;
+  width: 38%;
+  margin: 8% 5%;
+}
+@media screen and (max-width: 600px) {
+  .part_2_column {
+    width: 100%;
+  }
+}
+
+.part_2 h1{
+  font-size: 50px;
+}
+
+.part_3{
+  text-align: center;
+  background-color: #E8DED2;
+  padding: 7%;
+}
