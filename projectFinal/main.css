@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 *{
   font-family: 'Dosis', sans-serif;
   margin: 0;
 }
  .part_1{
    background-color: #5EAAA8;
-   height: 550px;
+   height: 630px;
  }
 
 .topnav {
   position: relative;
   background-color: #056676;
-  /*opacity: 80%;*/
+  opacity: 80%;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
   margin-left: 25%;
   margin-right: 25%;
-  /*margin-top: -1000px;*/
+  margin-top: -600px;
 }
 
 .topnav a {
@@ -37,25 +38,29 @@
 }
 
 .part_1 h1{
-  text-align: center;
   font-weight: 800;
   font-size: 50px;
   padding-top: 10%;
+  z-index: 2;
+  position: absolute;
+  transform: translate(93%, 30%);
 }
 
 .part_1 img{
-  opacity: 0.6;
+  opacity: 0.35;
+  height: 100%;
+  width: 100%;
 }
 
 .part_2_row{
   background-color: #A3D2CA;
-  height: 460px;
+  height: 500px;
 }
 
 .part_2_column{
   float: left;
   width: 38%;
-  margin: 8% 5%;
+  margin: 8% 6%;
 }
 @media screen and (max-width: 600px) {
   .part_2_column {
@@ -67,8 +72,73 @@
   font-size: 50px;
 }
 
+.part_2 img{
+  height: auto;
+  width: 100%;
+  
+}
+
 .part_3{
   text-align: center;
   background-color: #E8DED2;
   padding: 7%;
+}
+
+.part_4{
+  background-color: #E8DED2;
+}
+
+.part_4_column {
+  float: left;
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  border: 1px solid #E8DED2;
+  padding: 0.925%;
+  color: #E8DED2;
+}
+
+.part_4_column:hover{
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+.part_4_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.part_5{
+  text-align: center;
+  background-color: rgb(94, 170, 168);
+  padding: 9%;
+}
+
+.part_5_column {
+  float: left;
+  width: 27%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  border: 7px solid #5EAAA8;
+  margin: 1.6%;
+  padding: 0.925%;
+  color: #E8DED2;
+}
+
+.part_5_column:hover{
+  border: solid 7px #056676;
+  cursor: pointer;
+}
+
+.part_5_row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
