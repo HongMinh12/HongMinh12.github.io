@@ -1,34 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
-*{
+
+* {
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Dosis', sans-serif;
   margin: 0;
 }
- .part_1{
-   background-color: #5EAAA8;
-   height: 630px;
- }
+
+.part_1 img{
+  opacity: 0.4;
+  transform: translate(2.5%, 0%);
+}
+
+.slideshow-container {
+  max-width: 1047px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: transparent;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.part_1{
+  background-color: #5EAAA8;
+  height: 660px;
+}
 
 .topnav {
   position: relative;
   background-color: #056676;
-  opacity: 80%;
   overflow: hidden;
-  display: flex;
-  justify-content: space-around;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: -600px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: -675px;
 }
 
 .topnav a {
   float: left;
-  border-bottom: solid 4px #056676;
+  border-bottom: solid 3px #056676;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  padding-left: 48.9px;
+  padding-right: 48.9px;
 }
 
 .topnav a:hover {
@@ -41,15 +88,8 @@
   font-weight: 800;
   font-size: 50px;
   padding-top: 10%;
-  z-index: 2;
   position: absolute;
   transform: translate(93%, 30%);
-}
-
-.part_1 img{
-  opacity: 0.35;
-  height: 100%;
-  width: 100%;
 }
 
 .part_2_row{
@@ -60,7 +100,7 @@
 .part_2_column{
   float: left;
   width: 38%;
-  margin: 8% 6%;
+  margin: 6% 6%;
 }
 @media screen and (max-width: 600px) {
   .part_2_column {
@@ -75,16 +115,15 @@
 .part_2 img{
   height: auto;
   width: 100%;
-  
 }
 
 .part_3{
   text-align: center;
   background-color: #E8DED2;
-  padding: 7%;
+  padding: 5%;
 }
 
-.part_4{
+/* #part_4{
   background-color: #E8DED2;
 }
 
@@ -110,12 +149,34 @@
   content: "";
   display: table;
   clear: both;
+} */
+
+#part_4{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin: 5% none;
+  background-color: #E8DED2;
+}
+
+#part_4 .food{
+  color: #000;
+  padding: 8.5% 1.9%;
+  border: solid 1px #E8DED2;
+  background-color: #056776ea;
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url(https://previews.123rf.com/images/krekdm/krekdm1607/krekdm160700253/60728902-seamless-food-pattern-can-be-used-for-wallpaper-website-background-wrapping-paper-restaurant-bright-.jpg);*/
+}
+
+#part_4 .food:hover{
+  transform: scale(0.91);
+  cursor: pointer;
 }
 
 .part_5{
   text-align: center;
-  background-color: rgb(94, 170, 168);
-  padding: 9%;
+  background-color: #5EAAA8;
+  padding: 5%;
+  color: #000;
 }
 
 .part_5_column {
@@ -126,19 +187,39 @@
   justify-content: center;
   flex-direction: column;
   height: 400px;
-  border: 7px solid #5EAAA8;
+  border: 7px solid #056676;
   margin: 1.6%;
   padding: 0.925%;
-  color: #E8DED2;
 }
 
 .part_5_column:hover{
-  border: solid 7px #056676;
+  border: solid 7px #5EAAA8;
   cursor: pointer;
 }
 
-.part_5_row:after {
-  content: "";
-  display: table;
-  clear: both;
+
+#part_6{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url(https://static.india.com/wp-content/uploads/2021/09/pjimage-99-1.jpg);
+}
+
+#part_6 .exercise{
+  color: #E8DED2;
+  padding: 1.5%;
+  border: solid 15px #5EAAA8;
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url(https://previews.123rf.com/images/krekdm/krekdm1607/krekdm160700253/60728902-seamless-food-pattern-can-be-used-for-wallpaper-website-background-wrapping-paper-restaurant-bright-.jpg);*/
+}
+
+#part_6 .exercise:hover{
+  border-left: solid 18px #A3D2CA;
+  border-right: solid 18px #A3D2CA;
+  cursor: pointer;
+}
+
+.part_7{
+  height: 200px;
+  background-color: #056676;
 }

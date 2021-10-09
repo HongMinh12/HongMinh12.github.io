@@ -45,7 +45,7 @@ console.log(JSON.parse(productsData));
 
 
 let items = document.querySelector('.items')
-for (product of products) {
+for (products of products) {
     items.innerHTML += `
         <div class= 'item'>
             <div class= 'product-view'>
