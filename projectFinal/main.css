@@ -220,6 +220,36 @@ body {
 }
 
 .part_7{
-  height: 200px;
+  height: 220px;
   background-color: #056676;
+  color: #E8DED2;
+}
+
+.part_7 .part_7_column {
+  float: left;
+  width: 22%;
+  padding: 2% 0 0 10%;
+}
+
+.part_7 .part_7_column img{
+  height: 167px;
+  padding-left: 5%;
+}
+
+.part_8{
+  margin-top: -10px;
+  height: 110px;
+  background-color: #056676;
+  color: #fff;
+}
+
+.part_8 img{
+  height: 30px;
+}
+
+.part_8 .part_8_column {
+  color: #A3D2CA;
+  float: left;
+  width: 33%;
+  padding: 0 0 0 15%;
 }
