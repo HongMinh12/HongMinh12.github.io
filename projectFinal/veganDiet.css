@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
+* {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+}
+
+.part_1{
+  padding: 15% 35% 3% 35%;
+  height: 180px;
+  background-image: url('https://i.pinimg.com/originals/ba/90/dc/ba90dca8f36ecc02cb34d97ab2d05439.jpg');
+  background-size: cover;
+  text-align: center;
+}
+/*https://i.pinimg.com/736x/d6/89/c4/d689c49cdc79bd1d4a28826952184416.jpg*/
+.part_1 p{
+  text-align: center;
+}
+
+#part_2{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin: 5% 10% 0 10%;
+  background-color: #A3D2CA;
+  height: 200px;
+}
+
+#part_3{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin: 0 10% 5% 10%;
+  background-color: #5EAAA8;
+  height: 200px;
+}
+
+.part_4{
+  height: 160px;
+  background-color: #056676;
+  color: #E8DED2;
+}
+
+.part_4 .part_4_column {
+  float: left;
+  width: 22%;
+  padding: 30% 0 0 -2%;
+  line-height: 2;
+}
+
+.part_4 .part_4_column img{
+  height: 160px;
+  padding-left: 10%;
+}
+
+.part_5{
+  margin-top: -10px;
+  height: 90px;
+  background-color: #056676;
+  color: #fff;
+  padding-left: 14%;
+}
+
+.part_5 img{
+  height: 30px;
+}
+
+.part_5_row{
+  padding-left: 13%;
+}
+
+.part_5 .part_5_column {
+  color: #A3D2CA;
+  float: left;
+  width: 33%;
+}
+

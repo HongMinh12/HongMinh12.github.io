@@ -20,19 +20,19 @@ function showSlides() {
 
 let diets =[
   {
-    name: "Keto Diet",
+    name: "Keto Diet".link('file:///C:/Users/Dung/Documents/GitHub/HongMinh12.github.io/projectFinal/ketoDiet.html'),
     description: "The ketogenic diet is a very low carb, high fat diet. This aims to force your body into using a different type of fuel - fat molecules.",
     img: "https://i.ibb.co/qytCm1G/keto-Diet-modified.png"
   },
   {
-    name: "Vegan Diet",
+    name: "Vegan Diet".link('file:///C:/Users/Dung/Documents/GitHub/HongMinh12.github.io/projectFinal/veganDiet.html'),
     description: "Vegan diet involves eating only foods comprising plants. Those who follow this diet avoid all animal products, including meat and diary.",
     img: "https://i.ibb.co/TPWPHS5/vegan-Diet-modified.png"
   },
   {
-    name: "Intermittent Diet",
+    name: "Intermittent Diet".link('file:///C:/Users/Dung/Documents/GitHub/HongMinh12.github.io/projectFinal/interDiet.html'),
     description: "The 5:2 diet is an intermittent fasting regime in which calorie intake is limited to 500–600 calories per day two times per week.",
-    img: "https://i.ibb.co/g7vLL58/intermittent-Diet-modified.png"
+    img: "https://cdn.shopify.com/s/files/1/2357/6475/products/Chickenandricesalad_square_119c22c2-3955-478f-b4db-05cd0141eff0@2x.jpg?v=1612398245"
   },
   {
     name: "Extreme Diet",
@@ -44,8 +44,8 @@ let diets =[
 let dietTemplate = diet =>{
   return `
   <div class="food">
-    <img scr="${diets.img}" alt="error">
-    <h2 class="name" style="text-align:center">${diet.name}</h2> 
+    <!--<img scr="${diet.img} alt="error">-->
+    <h2 class="name" style="text-align:center;">${diet.name}</h2> 
     <p>${diet.description}</p>
   </div> 
   `
