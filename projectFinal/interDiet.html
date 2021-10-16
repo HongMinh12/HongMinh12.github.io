@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="interDiet.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
 <body>
@@ -13,8 +14,8 @@
         <p>This is the place where you can get meal ideas without having to doubt the quality of the diets, as well as don't have to pay for anything! It's totally free!</p>
     </div>
 
-    <div id="part_2"></div>
-    <div id="part_3"></div>
+    <div id="part_2" data-aos="fade-right" data-aos-duration="1500"></div>
+    <div id="part_3" data-aos="fade-left" data-aos-duration="1500"></div>
 
     <div class='part_4'>
         <div class="part_4_row">
@@ -56,5 +57,9 @@
             </div>
     </div>
     <script src="interDiet.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

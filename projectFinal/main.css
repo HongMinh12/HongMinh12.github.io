@@ -61,8 +61,8 @@ body {
   position: relative;
   background-color: #056676;
   overflow: hidden;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 24.77%;
+  margin-right: 24.77%;
   margin-top: -675px;
 }
 
@@ -74,8 +74,8 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  padding-left: 48.9px;
-  padding-right: 48.9px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .topnav a:hover {
@@ -117,7 +117,7 @@ body {
   width: 100%;
 }
 
-.part_3{
+#part_3{
   text-align: center;
   background-color: #E8DED2;
   padding: 5%;
@@ -172,7 +172,7 @@ body {
   cursor: pointer;
 }
 
-.part_5{
+#part_5{
   text-align: center;
   background-color: #5EAAA8;
   padding: 5%;

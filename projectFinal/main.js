@@ -15,7 +15,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000);
+  setTimeout(showSlides, 2500);
 }
 
 let diets =[
@@ -35,7 +35,7 @@ let diets =[
     img: "https://cdn.shopify.com/s/files/1/2357/6475/products/Chickenandricesalad_square_119c22c2-3955-478f-b4db-05cd0141eff0@2x.jpg?v=1612398245"
   },
   {
-    name: "Extreme Diet",
+    name: "Extreme Diet".link('file:///C:/Users/Dung/Documents/GitHub/HongMinh12.github.io/projectFinal/extremeDiet.html'),
     description: "Extreme dieting involves reducing the calorie intake to lose lots of weight in a short period, pushing the body beyond its capabilities.",
     img: "https://i.ibb.co/gJ4wM62/extreme-Diet1-modified.png"
   }

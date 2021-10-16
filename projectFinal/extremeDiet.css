@@ -9,11 +9,10 @@
 .part_1{
   padding: 9%;
   height: 180px;
-  background-image: linear-gradient(rgba(35, 126, 126, 0.3), rgba(0, 0, 0, 0.6)), url('https://images.everydayhealth.com/images/newsletter-signup/diet-and-nutrition-nl-signup.jpg?sfvrsn=3a241b07_2');
+  background-image: url('https://img.freepik.com/free-photo/top-view-tasty-fresh-grapefruits-juicy-fruit-slices-light-blue-surface_140725-88173.jpg?size=626&ext=jpg&ga=GA1.2.712709516.1624233600');
   background-size: cover;
-  color: #fff;
 }
-
+/*https://img.freepik.com/free-photo/top-view-tasty-fresh-grapefruits-juicy-fruit-slices-light-blue-surface_140725-88173.jpg?size=626&ext=jpg&ga=GA1.2.712709516.1624233600*/
 .part_1 p{
   width: 44%;
 }
@@ -23,7 +22,7 @@
   flex-direction: row;
   align-content: space-between;
   margin: 5% 10% 0 10%;
-  background-color: #E8DED2;
+  background-color: #5EAAA8;
   height: 200px;
 }
 
@@ -32,7 +31,7 @@
   flex-direction: row;
   align-content: space-between;
   margin: 0 10% 5% 10%;
-  background-color: #A3D2CA;
+  background-color: #E8DED2;
   height: 200px;
 }
 

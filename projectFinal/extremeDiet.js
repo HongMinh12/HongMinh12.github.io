@@ -1,15 +1,15 @@
 let ketoDiet =[
     {
         name: "DAY 1",
-        description: "Breakfast: Bread and Tofu | Lunch: Green Bean Salad | Snack: Peanut butter Cracker| Dinner: Coconut Curry Vegies"
+        description: "Breakfast: Bacon and Egg Cup with Avocado | Lunch: Pesto Chicken | Snack: Greek Yoghurt | Dinner: Baked Salmon"
     },
     {
         name: "DAY 2",
-        description: "Breakfast: Banana Porridge | Lunch: Sesame Tofu Bowl | Snack: Pistachio Bites | Dinner: Moroccan Red Lentil Soup",
+        description: "Breakfast: Coconut Cereal | Lunch: Keto Tortilla Soup | Snack: Green Smoothie | Dinner: Baked Chicken with Herbs",
     },
     {
         name: "DAY 3",
-        description: "Breakfast:  Banana Muffin | Lunch: Polenta and Beans | Snack: Hummus and Carrots | Dinner: Chickpea Sandwich",
+        description: "Breakfast:  Butter Bread | Lunch: Casserole with Broccoli Soup | Snack: Cauliflower Bites | Dinner: Chicken Marsala",
     }
 ];
   
@@ -27,15 +27,15 @@ ${ketoDiet.map(dietTemplate).join("")} `
 let ketoDiet_2 =[
     {
         name: "DAY 4",
-        description: "Breakfast: Coconut Porridge| Lunch: Homemade Hummus Wrap | Snack: Walnuts, Dips, Carrots | Dinner: Cauliflower Dhal",
+        description: "Breakfast: Keto Breakfast Sausage Sandwich | Lunch: Eggs Salad | Snack: Iced Bulletproof Coffee | Dinner: Beef Stroganoff",
     },
     {
         name: "DAY 5",
-        description: "Breakfast: Oatmeal with Apple| Lunch: Chard and Cashew | Snack: Chocolate Mint Bites | Dinner: Quinoa Lentil Salad",
+        description: "Breakfast: Eggs in an Avocado | Lunch: Stuffed Chicken Avocado Salad | Snack: Keto Fat Bombs | Dinner: Scallops & Cheese",
     },
     {
         name: "DAY 6",
-        description: "Breakfast: Greek Yoghurt Smoothie | Lunch: Bean Burrito | Snack: Apple and Nuts | Dinner: Asparagus Lime Spaghetti",
+        description: "Breakfast: Scrambled Egg Lettuce Wraps | Lunch: Kale Salad with Tuna | Snack: PeaNuts | Dinner: Chinese Beef and Broccoli",
     }
 ];
   
