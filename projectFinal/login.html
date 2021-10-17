@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <div class="title">
+                Login To Account
+            </div>
+            <form method="post" action="C:\Users\Dung\Documents\GitHub\HongMinh12.github.io\projectFinal\main.html" onsubmit="return validation();">
+                <div class="input_wrap">
+                    <label for="input_text">Email or Username</label>
+                    <div class="input_field">
+                        <input type="text" class="input" id="input_text">
+                    </div>
+                </div>
+                <div class="input_wrap">
+                    <label for="input_password">Password</label>
+                    <div class="input_field">
+                        <input type="password" class="input" id="input_password">
+                    </div>
+                </div>
+                </br>
+                <div class="input_wrap">
+                    <span class="error_msg">Incorrect username or password. Please try again</span>
+                    <input type="submit" id="login_btn" class="btn disabled" value="Login" disabled="true">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
