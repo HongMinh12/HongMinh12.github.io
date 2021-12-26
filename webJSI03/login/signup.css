@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background: linear-gradient(to left, #056676 0%, #a3d2ca 100%)
+}
+
+.login-box{
+    position: relative;
+    margin: 7% auto;
+    width: 600px;
+    height:400px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px black;
+}
+
+.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0 0 20px 0;
+    font-size: 28px;
+    font-weight: #222;
+}
+
+#email, #password, #user{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid rgb(150, 150, 150);
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-bottom: 2px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.1s ease; 
+    cursor: pointer;
+}
+
+.or {
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    background: #a0a0a085;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 2px 4px black;
+    line-height: 40px;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+.right .signinwith {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222;
+    text-align: center;
+}
+
+.social-signin {
+    margin-bottom:20px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.facebook {
+    background: #3A589E;
+    color: white;
+}
+
+.google {
+    background: rgb(180, 46, 46);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.right a {
+    color: blue;
+    margin-top: 50px;
+}
+

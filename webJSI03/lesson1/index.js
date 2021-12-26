@@ -83,5 +83,3 @@ let combineTwo = () => {
     let text_5 = arr2.concat(arr1);
     document.getElementById("output_5").innerHTML = text_5;
 }
-
-

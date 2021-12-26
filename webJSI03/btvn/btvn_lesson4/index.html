@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN - Lesson 4</title>
+</head>
+<body>
+    <ol>
+        <div id="timer_1"></div>
+        <div id ="stop_timer" onclick="clearInterval(timerVar)">Stop time</div>
+        <li><label id="minutes_2">00</label>:<label id="seconds_2">00</label></li>
+        <li><label id="minutes_3">00</label>:<label id="seconds_3">00</label></li>
+        <li><label id="minutes_4">00</label>:<label id="seconds_4">00</label></li>
+        <li><label id="minutes_5">00</label>:<label id="seconds_5">00</label></li>
+    </ol>
+
+<script>
+    //timer 1
+    let timerVar_1 = setInterval(countTimer, 1000);
+    let totalSeconds = 0;
+    function countTimer() {
+        ++totalSeconds;
+        var minute = Math.floor(totalSeconds/60);
+        var seconds = totalSeconds % 60;
+        if(minute < 10)
+            minute = "0"+minute;
+        if(seconds < 10)
+            seconds = "0"+seconds;
+        document.getElementById("timer_1").innerHTML = minute + ":" + seconds;
+    }
+
+    //timer 2
+    let minutesLabel = document.getElementById("minutes_1");
+    let secondsLabel = document.getElementById("seconds_1");
+    let totalSeconds = 0;
+    setInterval(setTime, 1000);
+
+    function setTime() {
+    ++totalSeconds;
+    secondsLabel.innerHTML = pad(totalSeconds % 60);
+    minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+    }
+
+    function pad(val) {
+    let valString = val + "";
+    if (valString.length < 2) {
+        return "0" + valString;
+    } else {
+        return valString;
+    } }
+
+    //timer 3
+    let minutesLabel = document.getElementById("minutes_1");
+    let secondsLabel = document.getElementById("seconds_1");
+    let totalSeconds = 0;
+    setInterval(setTime, 1000);
+
+    function setTime() {
+    ++totalSeconds;
+    secondsLabel.innerHTML = pad(totalSeconds % 60);
+    minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+    }
+
+    function pad(val) {
+    let valString = val + "";
+    if (valString.length < 2) {
+        return "0" + valString;
+    } else {
+        return valString;
+    } }
+
+    //timer 4
+    let minutesLabel = document.getElementById("minutes_1");
+    let secondsLabel = document.getElementById("seconds_1");
+    let totalSeconds = 0;
+    setInterval(setTime, 1000);
+
+    function setTime() {
+    ++totalSeconds;
+    secondsLabel.innerHTML = pad(totalSeconds % 60);
+    minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+    }
+
+    function pad(val) {
+    let valString = val + "";
+    if (valString.length < 2) {
+        return "0" + valString;
+    } else {
+        return valString;
+    } }
+
+    //timer 5
+    let minutesLabel = document.getElementById("minutes_1");
+    let secondsLabel = document.getElementById("seconds_1");
+    let totalSeconds = 0;
+    setInterval(setTime, 1000);
+
+    function setTime() {
+    ++totalSeconds;
+    secondsLabel.innerHTML = pad(totalSeconds % 60);
+    minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+    }
+
+    function pad(val) {
+    let valString = val + "";
+    if (valString.length < 2) {
+        return "0" + valString;
+    } else {
+        return valString;
+    } }
+
+</script>
+</body>
+</html>
