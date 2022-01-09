@@ -26,6 +26,7 @@ signin.addEventListener('click', (e) => {
     // Signed in 
     const user = userCredential.user;
     alert("User successfully signed in!")
+	window.location.replace("http://127.0.0.1:5500/projectFinal/main.html");
   })
   .catch((error) => {
     const errorCode = error.code;
