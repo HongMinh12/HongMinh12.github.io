@@ -82,4 +82,3 @@ let workTemplate = workout =>{
 }
 document.getElementById('part_6').innerHTML = `
 ${workouts.map(workTemplate).join("")} `
-

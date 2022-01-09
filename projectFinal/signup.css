@@ -26,7 +26,7 @@ body {
 
 h1{
     text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-weight: 700;
 	font-size: 24px;
 }
@@ -63,4 +63,9 @@ input[type="submit"] {
     transition: 0.1s ease; 
     cursor: pointer;
     letter-spacing: 3px;
+}
+
+.login-box a {
+    color: #056676;
+    padding-left: 200px
 }

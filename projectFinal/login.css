@@ -1,95 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
 
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Jost', sans-serif;
-	outline: none;
-	color: #5c4b51;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    color: #5c4b51;
 }
 
-body{
-	background: linear-gradient(to right, #A3D2CA, #056676);
+body {
+    background: linear-gradient(to left, #056676 0%, #a3d2ca 100%)
 }
 
-.wrapper{
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.form{
-	width: 425px;
-	height: auto;
+.login-box{
+    position: relative;
+    margin: 7% auto;
+    width: 380px;
+    height: 100px;
+    border-radius: 2px;
 	background: #E8DED2;
 	padding: 35px 50px;
-	border-radius: 2px;
 }
 
-.form .title{
-	text-align: center;
-	margin-bottom: 20px;
+h1{
+    text-align: center;
+	margin-bottom: 10px;
 	font-weight: 700;
 	font-size: 24px;
 }
 
-.form .input_wrap{
-	margin-bottom: 15px;
-	width: 325px;
-	position: relative;
-}
-
-.form .input_wrap:last-child{
-	margin-bottom: 15px;
-}
-
-.form .input_wrap label{
-	display: block;
-	margin-bottom: 5px;
-}
-
-.form .input_wrap input{
-	padding: 15px;
-	width: 100%;
-	border: 1px solid transparent;
-	font-size: 16px;
+#email, #password{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 4px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid transparent;
 	border-radius: 3px;
+    background: rgb(184, 176, 166);
+    font-weight: 400;
+    font-size: 16px;
+    transition: 0.2s ease;
 }
 
-.form .input_wrap .input{
-	background: rgb(184, 176, 166);
-	padding-right: 35px;
+input[type="text"]:focus, input[type="password"]:focus {
+    border-bottom: 2px solid #16a085;
+    transition: 0.2s ease;
 }
 
-
-.form .input_wrap .input:focus{
-	border-color: #5EAAA8;
+input[type="submit"] {
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    background: #5EAAA8;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.1s ease; 
+    cursor: pointer;
+    letter-spacing: 3px;
 }
 
-.form .input_wrap .input_field{
-	position: relative;
-}
-
-.form .input_wrap .btn{
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: #fff;
-}
-
-.form .input_wrap .btn.disabled{
-	background: #5EAAA8;
-}
-
-.form .input_wrap .btn.enabled{
-	background: #5EAAA8;
-	cursor: pointer;
-}
-
-.form .input_wrap .error_msg{
-	font-size: 15px;
-	margin-bottom: 5px;	
-	color: #f74040;
-	display: none;
+.login-box a {
+    color: #056676;
+    padding-left: 220px;
 }

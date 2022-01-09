@@ -1,55 +1,35 @@
-let available = [
-    {
-        username: 'adidaslet',
-        password: 'notme123'
-    },
-    {
-        username: 'fundmoney',
-        password: 'want2see'
-    },
-    {
-        username: 'nightsky',
-        password: 'light989'
-    },
-];
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
 
-let validation = () => {
-	let input_text = document.querySelector("#input_text");
-	let input_password = document.querySelector("#input_password");
-	let error_msg = document.querySelector(".error_msg");
+const firebaseConfig = {
+    apiKey: "AIzaSyCTybpKNP765Xu2QxBEp9xqrEdiQOye-7w",
+    authDomain: "jsio3-84b49.firebaseapp.com",
+    projectId: "jsio3-84b49",
+    storageBucket: "jsio3-84b49.appspot.com",
+    messagingSenderId: "950410770326",
+    appId: "1:950410770326:web:94c14a9b28091a0541cfb7",
+    measurementId: "G-LPX37GJ3JE"
+};
+const app = initializeApp(firebaseConfig);
+const database = getDatabase(app)
+const auth = getAuth();
 
-	if(input_text.value.length <= 3 || input_password.value.length <= 3 ){
-		error_msg.style.display = "inline-block";
-		input_text.style.border = "1px solid #f74040";
-		input_password.style.border = "1px solid #f74040";
-		return false;
-	}
-	else{
-    alert("form submitted successfully")
-		return true;
-	}
+//sign in
+signin.addEventListener('click', (e) => {
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
 
-    /*if(input_text != "adidaslet" && input_password != "notme123" ){
-		error_msg.style.display = "inline-block";
-		input_text.style.border = "1px solid #f74040";
-		input_password.style.border = "1px solid #f74040";
-		return false;
-	}
-	else{
-    alert("form submitted successfully")
-		return true;
-
-    }*/
-}
-
-let input_fields = document.querySelectorAll(".input");
-let login_btn = document.querySelector("#login_btn");
-
-input_fields.forEach(function(input_item){
-	input_item.addEventListener("input", function(){
-		if(input_item.value.length > 3){
-			login_btn.disabled = false;
-			login_btn.className = "btn enabled"
-		}
-	})
+    signInWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    // Signed in 
+    const user = userCredential.user;
+    alert("User successfully signed in!")
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    alert(errorMessage);
+  });
 })
